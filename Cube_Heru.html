@@ -84,32 +84,32 @@
           gl.TRIANGLE_FAN,
           [0, 0, 1, 1],
           [-0.5, -0.3, -0.4, -0.5, 0.3, -0.5, 0.2, 0.3, -0.5, 0.2, -0.3, -0.5]
-        ); // tampak depan biru
+        ); // Warna Biru Bagian Depan
         drawPrimitive(
           gl.TRIANGLE_FAN,
           [0, 1, 0, 1],
           [-0.2, -0.1, 0.4, 0.4, -0.1, 0.4, 0.4, 0.5, 0.4, -0.2, 0.5, 0.4]
-        ); // tampak belakang hijau
-        drawPrimitive(
-          gl.TRIANGLE_FAN,
-          [0, 1, 1, 1],
-          [-0.2, 0.5, -0.4, -0.5, 0.3, 0.4, 0.2, 0.3, 0.4, 0.4, 0.5, -0.5]
-        ); // tampak atas
+        ); // Warna Hijau Bagian Belakang
         drawPrimitive(
           gl.TRIANGLE_FAN,
           [1, 0, 1, 1],
           [-0.2, -0.1, -0.4, 0.4, -0.1, -0.4, 0.2, -0.3, 0.4, -0.5, -0.3, 0.4]
-        ); // tampak bawah
+        ); // Warna Fuchsia Bagian Bawah
         drawPrimitive(
           gl.TRIANGLE_FAN,
-          [1, 1, 0, 1],
-          [0.4, -0.1, -0.4, 0.4, 0.5, -0.5, 0.2, 0.3, 0.4, 0.2, -0.3, 0.4]
-        ); // tampak sisi kanan
+          [0, 1, 1, 1],
+          [-0.2, 0.5, -0.4, -0.5, 0.3, 0.4, 0.2, 0.3, 0.4, 0.4, 0.5, -0.5]
+        ); // Warna Cyan Bagian Atas
         drawPrimitive(
           gl.TRIANGLE_FAN,
           [1, 0, 0, 1],
           [-0.2, -0.1, -0.4, -0.5, -0.3, 0.4, -0.5, 0.3, 0.4, -0.2, 0.5, -0.5]
-        ); // tampak sisi kiri
+        ); // Warna Merah Bagian Sisi Kiri
+        drawPrimitive(
+          gl.TRIANGLE_FAN,
+          [1, 1, 0, 1],
+          [0.4, -0.1, -0.4, 0.4, 0.5, -0.5, 0.2, 0.3, 0.4, 0.2, -0.3, 0.4]
+        ); // Warna Kuning Bagian Sisi Kanan
       }
 
       /* Initialize the WebGL context.  Called from init() */
